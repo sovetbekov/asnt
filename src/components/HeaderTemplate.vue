@@ -31,7 +31,7 @@
 </template>
 <script setup lang="ts">
 import 'primeicons/primeicons.css'
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, defineEmits } from 'vue'
 
 const darkMode = ref(false)
 
@@ -45,7 +45,7 @@ onMounted(() => {
   }
 })
 
-const emit = defineEmits('theme-value')
+const emit = defineEmits(['theme-value'])
 
 const toggleDarkMode = () => {
   darkMode.value = !darkMode.value

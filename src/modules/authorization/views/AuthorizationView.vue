@@ -1,7 +1,7 @@
 <template>
   <div class="content flex flex-row justify-between bg-gray-50 min-h-screen gap-60">
     <div class="basis-4/12">
-      <img class="p-10" src="@/assets/logo.png" width="350" />
+      <!-- <img class="p-10" src="@/assets/logo.png" width="350" /> -->
     </div>
     <div class="form flex flex-col gap-8 basis-4/12 bg-white p-10 my-60 rounded-lg">
       <div class="titles flex flex-col gap-1">
