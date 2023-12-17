@@ -1,5 +1,5 @@
 <template>
-  <div class="content p-16 min-h-screen dark:bg-neutral-900 dark:text-gray-100">
+  <div class="content px-3 py-8 md:p-16 min-h-screen dark:bg-neutral-900 dark:text-gray-100">
     <HeaderTemplate @theme-value="getThemeValue" />
     <div
       v-motion-slide-top

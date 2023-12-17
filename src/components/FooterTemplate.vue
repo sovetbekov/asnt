@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="page-links text-right md:flex flex-col md:flex-row gap-5 md:gap-7 text-base md:text-lg">
+      <div class="page-links text-right md:flex flex-col md:flex-row gap-5 md:gap-7 text-sm md:text-lg">
         <div class="page-link cursor-pointer dark:hover:text-neutral-400 hover:text-black">
           г.Павлодар, пр.Нұрсұлтан Назарбаев, дом 287
         </div>
