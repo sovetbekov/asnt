@@ -12,12 +12,12 @@
 
       <div class="page-links text-right md:flex flex-col md:flex-row gap-5 md:gap-7 text-sm md:text-lg">
         <div class="page-link cursor-pointer dark:hover:text-neutral-400 hover:text-black">
-          г.Павлодар, пр.Нұрсұлтан Назарбаев, дом 287
+          г. Атырау, Проспект Зейнолла Қабдолов, дом 10
         </div>
         <div class="page-link cursor-pointer dark:hover:text-neutral-400 hover:text-black">
           <a href="mailto:info@asnt.kz"> info@asnt.kz</a>
         </div>
-        <div class="page-link cursor-pointer dark:hover:text-neutral-400 hover:text-black">+7 (707) 862 01 99</div>
+        <div class="page-link cursor-pointer dark:hover:text-neutral-400 hover:text-black">+7 (778) 351 8240</div>
       </div>
     </div>
   </div>
