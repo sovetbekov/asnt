@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AuthorizationView from '@/modules/authorization/views/AuthorizationView.vue'
 import CandidateForm from '@/modules/candidate/views/CandidateForm.vue'
 import CandidateList from '@/modules/candidate/views/CandidateList.vue'
+import DocumentPage from '@/components/DocumentPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -35,6 +36,11 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/docs',
+      name: 'docs',
+      component: DocumentPage,
     },
   ],
 })
